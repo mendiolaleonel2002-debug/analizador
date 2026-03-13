@@ -1,13 +1,13 @@
 def count_words(text):
     return len(text.split())
 
-def count_chracters(text):
+def count_characters(text):
     return len(text)
 
 def count_sentences(text):
-    sentences = text.count(".")
+    sentences = text.split(".")
     sentences = [s for s in sentences if s.strip()]
-    return len(sentences) 
+    return len(sentences)
 
 def longest_word(text):
     words = text.split()

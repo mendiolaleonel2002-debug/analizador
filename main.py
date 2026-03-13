@@ -5,7 +5,7 @@ from analyzer.text_analyzer import (
     longest_word
 )
 
-text = "Hola mundo, esta es una frase de prueba escrita directamente en el codigo."
+text = "Hola mundo. Esta es una frase de prueba escrita directamente en la programacion."
 
 print(f"Palabras:", count_words(text))
 print(f"Caracteres:", count_characters(text))

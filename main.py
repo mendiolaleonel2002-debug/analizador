@@ -8,7 +8,13 @@ from analyzer.text_analyzer import (
     longest_paragraph
 )
 
-text = "Hola mundo. Esta es una frase de prueba escrita directamente en la programacion."
+text = """
+Hola mundo. Esta es una frase de prueba escrita directamente en la programacion.
+
+Esta es una prueba de parrafo.
+
+Esta es otra prueba de parrafo.
+"""
 
 print(f"Palabras:", count_words(text))
 print(f"Caracteres:", count_characters(text))

@@ -19,3 +19,13 @@ def longest_word(text):
     if not words:
         return ""
     return max(words, key=len)
+
+def longest_sentences(text):
+    sentences = text.split(".")
+    sentences = [s for s in sentences if s.strip()]
+    return max(sentences, key=len)
+
+def longest_paragraph(text):
+    paragraphs = text.split("\n\n")
+    paragraphs = [p for p in paragraphs if p.strip]
+    return max(paragraphs, key=len)

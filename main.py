@@ -16,10 +16,10 @@ Esta es una prueba de parrafo.
 Esta es otra prueba de parrafo.
 """
 
-print(f"Palabras:", count_words(text))
-print(f"Caracteres:", count_characters(text))
-print(f"Oraciones:", count_sentences(text))
-print(f"Párrafos:", count_paragraphs(text))
-print(f"Palabra mas larga:", longest_word(text))
-print(f"Oración más larga:", longest_sentences(text))
-print(f"Párrafo más largo:", longest_paragraph(text))
+print("Palabras:", count_words(text))
+print("Caracteres:", count_characters(text))
+print("Oraciones:", count_sentences(text))
+print("Párrafos:", count_paragraphs(text))
+print("Palabra mas larga:", longest_word(text))
+print("Oración más larga:", longest_sentences(text))
+print("Párrafo más largo:", longest_paragraph(text))

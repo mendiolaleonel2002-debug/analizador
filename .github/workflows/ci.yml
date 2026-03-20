@@ -23,3 +23,9 @@ jobs:
         run: ruff check .
       - name: Run tests
         run: pytest
+      - name: Login to GitHub Container Resgistry
+        uses: docker/login-action@v4
+        with: 
+          registry: ghcr.io
+          username: ${{ github.actor}}
+          password: ${{ secrets.GITHUB_TOKEN}}

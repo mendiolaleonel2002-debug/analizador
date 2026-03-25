@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install -r requirements.dev.txt
+RUN pip install -r requirements-dev.txt
 
 CMD ["pytest", "main.py"]

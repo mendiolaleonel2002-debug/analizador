@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install -r requirements-dev.txt
 
-CMD ["pytest", "main.py"]
+CMD ["python", "main.py"]
